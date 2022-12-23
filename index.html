@@ -1,0 +1,22 @@
+<html>
+  <body>
+    <h1>Archana's Window Resize Sandbox</h1>
+    <h2>Testing out how to do cool animations with window resizing</h2>
+
+    <p>Open a new window, and resize it to a width and height you set:</p>
+
+    <button onclick="openWin(); ">Create window</button>
+    <button onclick="resizeWin()">Resize window</button>
+
+    <script>
+      let myWindow;
+      let width = 0;
+      let height = 0;
+      let increment = 0;
+
+      function openWin() {
+        myWindow = window.open("", "", "top=0, left=0, width=146, height=99");
+      }
+    </script>
+  </body>
+</html>
