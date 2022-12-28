@@ -33,6 +33,10 @@
         }
       }
 
+      function easeOutCirc(x) {
+        return Math.sqrt(1 - Math.pow(x - 1, 2));
+      }
+
 
       function openWin() {
         myWindow = window.open("", "", "top=0, left=0, width=146, height=99");
