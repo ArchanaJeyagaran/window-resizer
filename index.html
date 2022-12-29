@@ -46,8 +46,8 @@
       function resizeWin() {
         setInterval(() => {
           if (increment < 50) {
-            width = easeOutCirc(increment * 0.02) * 600;
-            height = easeOutCirc(increment * 0.02) * 400;
+            width = easeOutBounce(increment * 0.02) * 600;
+            height = easeOutBounce(increment * 0.02) * 400;
             myWindow.resizeTo(height, width);
             increment += 1;
           }
